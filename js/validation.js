@@ -3,6 +3,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     e.preventDefault(); // Prevent form submission
 
     let isValid = true;
+//var, let, const
 
     // Clear previous error messages
     document.querySelectorAll('.error-message').forEach(function(el) {
